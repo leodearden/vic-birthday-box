@@ -1,0 +1,12 @@
+This git repo is the virtual part of a Bright Green Spime.
+
+Please consider it a part of your Bright Green Future Filled With Spimes.
+
+Hopefully you already have the physical part of the spime. If not, then please 
+build the files with 
+
+git submodule update --recursive --init
+python build.py
+
+And then print the .stl with a RepRap style 3D printer using luminous green PLA.
+

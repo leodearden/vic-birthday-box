@@ -1,0 +1,3 @@
+[submodule "scad-build"]
+	path = scad-build
+	url = https://github.com/leodearden/scad-build.git
