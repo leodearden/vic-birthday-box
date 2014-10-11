@@ -1,0 +1,4 @@
+*.xml
+*.gcode
+*.stl
+.deps
