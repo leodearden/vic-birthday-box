@@ -1,11 +1,12 @@
 include <scad-meta/env.scad>;
 
 emboss_depth = 2;
-box_depth = 40;
-box_wall_twist = 15;
+box_depth = 100;
+box_wall_twist = 30;
 wheel_r = 178;
 wall_t = 2;
 inside_xy_scale = 1 - wall_t/wheel_r;
+qr_xy_scale = 1.5;
 
 module translate_wheel_centre_to_origin() {
     y_tweak = 6;
