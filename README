@@ -1,12 +1,28 @@
+Dear Vic,
+
+Happy Birthday!
+
+Wow, what a wonderful year. It's been marvellous and a privilege getting to know you and seeing you grow and triumph in so many ways. Please accept my wishes of many more years of ever increasing awesomeness.
+
+Love,
+
+Leo
+
+****
+
 This git repo is the virtual part of a Bright Green Spime.
 
 Please consider it a part of your Bright Green Future Filled With Spimes.
 
 Hopefully you already have the physical part of the spime. If not, then please 
-build the files with 
+clone this repo and then build the files with 
 
 git submodule update --recursive --init
 python build.py
 
-And then print the .stl with a RepRap style 3D printer using luminous green PLA.
+And then print the .stl with a RepRap style 3D printer using luminous green PLA for the box and black PLA for the inlays.
 
+Dependencies:
+python (2.7)
+OpenSCAD (head of master as of 2014-10-10, probably built with bleeding edge clang - or some other compiler - instead of gcc 4.8.2) 
+A working two material 3D print system.
